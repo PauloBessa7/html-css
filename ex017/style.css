@@ -1,0 +1,10 @@
+@charset "UTF-8";
+main {
+  background-color: rgb(245, 219, 219);
+  box-shadow:1px 1px 10px rgb(0, 0, 0) ;
+  padding: 10px;
+  
+}
+h1,h2,p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

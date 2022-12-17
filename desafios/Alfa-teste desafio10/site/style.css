@@ -1,0 +1,66 @@
+@font-face {
+  font-family:android;
+  src: url(../fontes/idroid.otf);
+}
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgba(185, 173, 173, 0.308);
+}
+/* -------------- FONTE ------------------*/
+.fonte{
+  font-family:android;
+}
+/* -------------- HEADER ------------------*/
+header{
+  background-color: rgb(43, 211, 43);
+  padding: 8px;
+}
+header > article > a {
+  padding-right: 10px;
+  padding: 10PX;
+  border-radius: 8px;
+  color: white;
+}
+header > aside > p {
+  margin: 0px;
+}
+ header > article {
+  margin-top: 15px;
+ }
+ header > article >a:hover{
+  background-color: rgba(245, 245, 245, 0.397);
+}
+header > article > a {
+  text-decoration: none;
+
+}
+/* -------------- CENTRALIZAR ------------------*/
+.centro{
+  text-align: center;
+  color: white;
+}
+/* -------------- MAIN ------------------*/
+main{
+  background-color:white ;
+  width: 1100px;
+  padding: 20px;
+  margin: 0px auto;
+  text-indent: 10px;
+  box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.459);
+}
+
+section > h3 {
+  background-color: rgba(0, 128, 0, 0.459);
+  color: green;
+}
+
+img{
+  padding-left: 150px;
+}
+
+video{
+  width: 500px;
+  height: 500px;
+  padding-left: 250px;
+}
