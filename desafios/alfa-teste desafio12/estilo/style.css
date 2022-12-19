@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  
+}
+
+header h1 {
+  padding-top: 50px;
+  font-variant: small-caps;
+  font-size: 10vw;
+}
+
+header p {
+  padding:30px;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+ /*-------------- ARTICLE --------------*/
+
+ article {
+  background-color: lightblue;
+  width: 500px;
+  padding: 50px 30px;
+  font-size: 3vw;
+  line-height: 2em;
+ }
