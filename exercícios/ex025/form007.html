@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <fieldset>
+    <legend>SOMA</legend>
+    <p>
+      <label for="inem">Numero></label>
+      <input type="range" name="numero" id="inem" min="0" max="10" value="0"
+      oninput="inumero.innerHTML=inem.value">
+      <output id="inumero">0</output>
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>sua idade</legend>
+    <p>
+      <label for="idata">Ano do seu nascimento></label>
+      <input type="number" name="ano" id="idata" min="1940" max="2023" value="2001"
+      oninput="calcuidade()">
+    </p>
+    <p>
+      <label for="idade">Você tem</label>
+      <output id="soma">23</output> anos
+    </p>
+
+    <script>
+      function calcuidade(){
+        let atual=new Date().getFullYear()
+        soma.innerHTML=Number(atual)-Number(idata.value) 
+      }
+    </script>
+  </fieldset>
+</body>
+</html>
