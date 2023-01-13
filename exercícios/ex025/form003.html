@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste de formulário</title>
+</head>
+<body>
+  <form action="cadastro.php" method="get">
+
+    <p>
+      <label for="iusu"> Nome Completo> </label>
+      <input type="text" id="iusu" name="usu" required minlength="5" autocomplete="name" placeholder="nome">
+    </p>
+    <p>
+      <label for="imedia"> média </label>
+      <input type="number" size="5" step="0.1" id="imedia" name="media" required max="10" min="0" autocomplete="name" placeholder="nota">
+    </p>
+    <p>
+      <label for="imes"> Periodo letivo </label>
+      <input type="month" name="mes" id="imes" value="2009-03">
+    </p>
+    <p>
+      <label for="iprova"> Dia da prova </label>
+      <input type="date" name="dia" id="iprova" value="2009-03-02">
+    </p>
+    <p>
+      <label for="ihora"> Dia da prova </label>
+      <input type="time" name="hora" id="ihora" value="00:00">
+    </p>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Excluir">
+    </p>
+
+
+  </form>
+</body>
+</html>
