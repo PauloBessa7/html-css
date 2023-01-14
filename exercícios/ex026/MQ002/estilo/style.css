@@ -9,7 +9,7 @@ body,html{
   width: 100vw;
   height: 100vh;
   background-color: #233eff;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
  
 }
@@ -17,4 +17,5 @@ body,html{
 h1{
   color: white;
   text-shadow: 3px 3px 0px #1929a581;
+  padding: 10px;
 }
