@@ -4,7 +4,7 @@
   margin: 0px;
   padding: 0px;
 }
-body{
+body, html{
   font-family: Arial, Helvetica, sans-serif;
   background-color: lightgray;
 }
@@ -19,16 +19,38 @@ header h1{
   padding: 10px;
 }
 
-header li {
-  display: inline-block;
-  background-color: gray;
-  padding: 10px;
+span#Hamburguer{
+
+  display: block;
+  background-color: black;
   color: white;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
 }
 
-li:hover{
-  background-color: black;
-  cursor: pointer;
+span#Hamburguer:hover{
+background-color: rgb(138, 135, 135);
+color: black;
+}
+menu{
+  display: none;
+}
+header ul {
+  list-style-type: none;
+}
+
+menu > ul > li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(68, 68, 68);
+  color: white;
+  border-top: 2px solid gray;
+}
+menu > ul > li a:hover{
+ background-color: gray;
 }
 
 main{
@@ -48,4 +70,3 @@ p{
   text-indent: 10px;
   text-align: justify;
 }
-
